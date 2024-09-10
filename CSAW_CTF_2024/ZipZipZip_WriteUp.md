@@ -16,6 +16,7 @@ while True:
 ```
 ![unzip_result](img/unzip_till_error.png)
 It seems that there are only chunk_0.zip to chunk_32795.zip
+
 6. Remove useless zip files.
 ```Python
 import os
@@ -34,6 +35,7 @@ with open("./0_extracted.txt", "w") as f:
     f.write(extracted_data)
 ```
 Look for the extracted file (0_extracted.txt), I think it would be base64 encoded.
+
 8. Decode the file with base64.
 ```Python
 import base64
