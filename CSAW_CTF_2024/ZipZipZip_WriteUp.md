@@ -13,6 +13,7 @@ i = 0
 while True:
     with zipfile.ZipFile(f"./chunk_{i}.zip", "r") as f:
         f.extractall()
+    i += 1
 ```
 ![unzip_result](img/unzip_till_error.png)
 It seems that there are only chunk_0.zip to chunk_32795.zip
