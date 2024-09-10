@@ -47,7 +47,7 @@ decoded = base64.b64decode(data)
 with open("0_decoded.bin", "wb") as f:
     f.write(decoded)
 ```
-9. Check for the file type of 0_decode.bin
+9. Check for the file type of 0_decoded.bin
 ![file_type_is_png](img/file_type_png.png)
 It seemed that the decoded file is png image file.
 If we take a look at the image file, we can find flag right under corner.
